@@ -19,3 +19,38 @@
     color: Gray;
     
     }
+
+    body {
+        background-color: #EBEBEB; /* Light Gray - Neutral Color */
+        color: #1E1E1E; /* Black - Neutral Color */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        font-size: 70px; /* Title Text Size */
+        color: #FFCC00; /* Primary Yellow - Primary Color */
+    }
+    
+    h2 {
+        font-size: 38px; /* Subheading Text Size */
+        color: #FFFF00; /* Beacon Yellow - Primary Color */
+    }
+    
+    p {
+        font-size: 18px; /* Body Text Size */
+    }
+    
+    /* Adjust text color for dark backgrounds */
+    body.dark-background {
+        color: #FFFFFF; /* White - Neutral Color */
+    }
+    
+    /* Customize background colors */
+    .primary-background {
+        background-color: #FFCC00; /* Primary Yellow - Primary Color */
+    }
+    
+    .secondary-background {
+        background-color: #1E1E1E; /* Black - Neutral Color */
+    }
